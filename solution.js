@@ -13,7 +13,7 @@ const starsInSky = 355;
 
 /* a) atoms is greater than starsInSky AND atoms is greater than sandGrains. */
 
-console.log(`a)`,atoms > starsInSky && atoms > sandGrains);
+console.log(`a)`, atoms > starsInSky && atoms > sandGrains);
 
 /* with && (and) when at least one value is false result is false */
 
@@ -21,18 +21,19 @@ console.log(`a)`,atoms > starsInSky && atoms > sandGrains);
 
 /* b) atoms is NOT equal to sandGrains. */
 
-console.log(`b)`,atoms !== sandGrains);
+console.log(`b)`, atoms !== sandGrains);
+
 
 /* c) starsInSky is less than sandGrains OR starsInSky is greater than atoms. */
 
-console.log(`c)`,starsInSky < sandGrains || starsInSky > atoms);
+console.log(`c)`, starsInSky < sandGrains || starsInSky > atoms);
 /* with || (or) when at least one value is true result is true */
 
 
 
 /* d) atoms is equal to starsInSky OR atoms is NOT equal to sandGrains */
 
-console.log(`d)`,atoms === starsInSky || atoms !== sandGrains);
+console.log(`d)`, atoms === starsInSky || atoms !== sandGrains);
 
 
 /* e) atoms is greater than or equal to 10 AND sandGrains is less than or equal to 10. */
